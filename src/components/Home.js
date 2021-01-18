@@ -1,12 +1,12 @@
 import React from 'react'
-import image from "../stress.jpg"
+import image from "../writing music.jpg"
 
 function Home() {
     return (
         <main>
-            <img src={image} alt="stuff" className="absolute object-cover w-full h-full"/>
-            <section className="relative flex justify-center min-h-screen pt-12 lg:pt-64 px-8">
-                <h1 className="text-6xl text-green-100 font-bold cursive leading-none lg:leading-snug home-name">Stuff</h1>
+            <img src={image} alt="Austin playing guitar" className="absolute object-cover w-full h-full"/>
+            <section className="relative flex justify-center min-h-screen pt-12 lg:pt-4 px-8">
+                <h1 className="font-sans text-5xl text-blue-300 leading-none lg:leading-snug home-name">Welcome!</h1>
             </section>
         </main>
     )

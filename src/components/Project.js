@@ -20,13 +20,13 @@ function Project() {
     }, []);
 
     return (
-        <main className='bg-green-100 min-h-screen p-12'>
+        <main className=' min-h-screen p-12'>
             <section className='container mx-auto'>
                 <h1 className='text-5xl flex justify-center cursive'>Pride and Joy</h1>
                 <h2 className='text-lg text-gray-600 flex justify-center mb-12'>So much code...</h2>
                 <section className='grid grid-cols-2 gap-8'>
                     {projectData && projectData.map((project, index) => (
-                    <article className='relative rounded-lg shadow-xl bg-white p-16'>
+                    <article className='relative rounded-lg shadow-xl bg-blue-200 p-16'>
                         <h3 className='text-gray-800 text-3xl font-bold mb-2 hover:text-red-700'>
                             <a
                             href={project.link}
