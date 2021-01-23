@@ -22,7 +22,7 @@ function Project() {
     return (
         <main className=' min-h-screen p-12'>
             <section className='container mx-auto'>
-                <h1 className='text-5xl flex justify-center cursive'>Pride and Joy</h1>
+                <h1 className='text-5xl flex justify-center font-serif'>Pride and Joy</h1>
                 <h2 className='text-lg text-gray-600 flex justify-center mb-12'>So much code...</h2>
                 <section className='grid grid-cols-2 gap-8'>
                     {projectData && projectData.map((project, index) => (

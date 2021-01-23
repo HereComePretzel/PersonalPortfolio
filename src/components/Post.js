@@ -31,7 +31,7 @@ function Post() {
       <main>
          <section className='container mx-auto'>
             <br></br>
-            <h1 className='text-5xl flex justify-center cursive'>Blog Posts</h1>
+            <h1 className='text-5xl flex justify-center font-serif'>Blog Posts</h1>
             <h2 className='text-lg text-gray-600 flex justify-center mb-12'>Listening to myself think.</h2>
             <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-8'>
                {postData && postData.map((post, index) => (
