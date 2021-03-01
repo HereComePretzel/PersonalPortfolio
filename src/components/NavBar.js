@@ -52,4 +52,5 @@ function NavBar() {
 }
 // added some text
 //added some more text
+//last bit of text
 export default NavBar
