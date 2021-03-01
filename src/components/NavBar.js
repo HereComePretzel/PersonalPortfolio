@@ -50,5 +50,5 @@ function NavBar() {
         </header>
     )
 }
-
+// added some text
 export default NavBar
